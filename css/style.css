@@ -560,7 +560,7 @@ no-js
 }
 .no-js .cd-vertical-nav li {
   display: inline-block;
-  float: left;
+  /* float: left; */
 }
 .no-js .cd-vertical-nav a {
   padding: 0 1em;
@@ -594,8 +594,6 @@ no-js
 #section1{
 	position:relative;
 	text-align:center;
-}
-#section1 img{
 }
 
 /*intro*/

@@ -56,7 +56,7 @@ jQuery(document).ready(function($){
         	300
         );
 	} catch(err) {
-		window.open('https://get.teamviewer.com/tpz28kz', 'Download Teamviewer');
+		window.open('https://get.teamviewer.com/cs-ict', 'Download Teamviewer');
 	}
 	}
 });
