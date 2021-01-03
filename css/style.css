@@ -482,13 +482,13 @@ Content Sections - basic style
   vertical-align: middle;
   text-align: center;
 }
-.cd-section h1, .cd-section h2 {
+.cd-section h1, .cd-section h2, .cd-section h3 {
   width: 90%;
   font-size: 2rem;
   line-height: 1.4;
   font-weight: bold;
 }
-.cd-section h1 b, .cd-section h2 b {
+.cd-section h1 b, .cd-section h2 b, .cd-section h3 b {
   color: #fff;
 }
 .cd-section p {
@@ -627,7 +627,7 @@ no-js
 	.right{
 		padding-bottom:90px;
 	}
-	.cd-section h1, .cd-section h2 {
+	.cd-section h1, .cd-section h2, .cd-section h3 {
 		font-size: 1em;
 		text-align:left;
 		color:#fff;
@@ -655,6 +655,9 @@ no-js
 	#section5 h2{
 		padding-top:28px;
 	}
+	#section5 h3{
+		padding-top:28px;
+	}
 	#section4, #section2, #section3 {
 		padding:30px 0;
 	}
@@ -662,6 +665,9 @@ no-js
 		padding-bottom:30px;
 	}
 	#section4 h2{
+		padding-top:20px;
+	}	
+	#section4 h3{
 		padding-top:20px;
 	}
 	#section4 .right{
@@ -671,7 +677,7 @@ no-js
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
-	.cd-section h1, .cd-section h2 {
+	.cd-section h1, .cd-section h2, .cd-section h3 {
 		font-size: 1em;
 		margin-top:25px;
 		
@@ -709,6 +715,9 @@ no-js
 		padding:0;
 	}
 	#section5 h2{
+		padding-top:0px;
+	}
+	#section5 h3{
 		padding-top:0px;
 	}
 	#section4 .right{
