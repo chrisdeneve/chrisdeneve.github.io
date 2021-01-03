@@ -468,7 +468,10 @@ Content Sections - basic style
 	color:#fff;
 }
 #section2 a, #section4 a{
-	color:#fff;
+	color:#e5e5e5;
+}
+#section2 a:hover, #section4 a:hover{
+	text-decoration:underline;
 }
 #section6 p, #section7 p{
 	color:#58585A;
