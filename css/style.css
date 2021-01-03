@@ -645,6 +645,10 @@ no-js
 	#section2 li{
 		font-size:0.75em;
 	}
+	#section4 li{
+		font-size:0.75em;
+		text-align:left;
+	}
 	#section6 p{
 		width:100%;
 		text-align:center;
@@ -708,6 +712,10 @@ no-js
 	#section2 li{
 		font-size:1em;
 	}
+	#section4 li{
+		font-size:1em;
+		text-align:left;
+	}
 	.section3, .section3b, #intro, .section4, .section4b, .section5{
 		padding-top:0px;
 	}
@@ -754,6 +762,10 @@ no-js
 	#section2 li{
 		padding:5px 15px;
 		text-align:center;
+	}
+	#section4 li{
+		padding:5px 15px;
+		text-align:left;
 	}
 }
 /*Cookie Consent Begin*/
