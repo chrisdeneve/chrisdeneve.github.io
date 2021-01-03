@@ -467,7 +467,9 @@ Content Sections - basic style
 #section1 p, #section3 p, #section5 p, #section2 p, #section4 p{
 	color:#fff;
 }
-
+#section2 a, #section4 a{
+	color:#fff;
+}
 #section6 p, #section7 p{
 	color:#58585A;
 }
