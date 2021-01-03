@@ -619,12 +619,12 @@ no-js
 		font-size: 0.8em;
 		text-align:left;
  	}
-	.left, .right{
+	.left, .right, .norm {
 		float:left;
 		width:90%;
 		margin-left: 10%;
 	}
-	.right{
+	.right, .norm {
 		padding-bottom:90px;
 	}
 	.cd-section h1, .cd-section h2, .cd-section h3 {
@@ -633,7 +633,7 @@ no-js
 		color:#fff;
   	}
 		
-    #section2 .right{
+    	#section2 .right, .norm {
 		margin-left:20px;
 	}
 	#section2 img{
@@ -697,6 +697,15 @@ no-js
 		margin-left: 0%;
 		padding-bottom:0px;
 	}
+	
+	.norm{
+		width:90%;
+		position: relative;
+		left: 35%;
+		transform: translateX(-35%);
+		margin-left: 0%;
+		padding-bottom:0px;
+	}
 
 	.cd-section{
 		display: table;
@@ -744,18 +753,23 @@ no-js
 		left: 30%;
 		transform: translateX(-30%);
 	}
-	
+	.norm{
+		width:90%;
+		position: relative;
+		left: 30%;
+		transform: translateX(-30%);
+	}
 }
  
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px){
-	.left, .right{
+	.left, .right, .norm{
 		transform: translateX(-30%);
 	}
 	#section2 .left{
 		padding-top:35px;
 	}
-		#section2 .left p{
+	#section2 .left p{
 		font-size:1.2em;
 	}
 
