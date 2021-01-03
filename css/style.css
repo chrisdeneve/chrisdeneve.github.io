@@ -647,10 +647,10 @@ no-js
 		height:auto;
 		
 	}
-	#section2 li, #section2 ul{
+	#section2 li{
 		font-size:0.75em;
 	}
-	#section4 li, #section4 ul{
+	#section4 li{
 		font-size:0.75em;
 		text-align:left;
 	}
@@ -723,10 +723,10 @@ no-js
 		max-width:100%;
 		height:auto;
 	}
-	#section2 li, #section2 ul{
+	#section2 li{
 		font-size:1em;
 	}
-	#section4 li, #section4 ul{
+	#section4 li{
 		font-size:1em;
 		text-align:left;
 	}
@@ -778,11 +778,11 @@ no-js
 		font-size:1.2em;
 	}
 
-	#section2 li, #section2 ul{
+	#section2 li{
 		padding:5px 15px;
 		text-align:center;
 	}
-	#section4 li, #section4 ul{
+	#section4 li{
 		padding:5px 15px;
 		text-align:left;
 	}
