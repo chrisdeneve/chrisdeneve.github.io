@@ -487,13 +487,13 @@ Content Sections - basic style
   vertical-align: middle;
   text-align: center;
 }
-.cd-section h1, .cd-section h2, .cd-section h3 {
+.cd-section h1, .cd-section h2, .cd-section h3, .cd-section h4 {
   width: 90%;
   font-size: 2rem;
   line-height: 1.4;
   font-weight: bold;
 }
-.cd-section h1 b, .cd-section h2 b, .cd-section h3 b {
+.cd-section h1 b, .cd-section h2 b, .cd-section h3 b, .cd-section h4 b {
   color: #fff;
 }
 .cd-section p {
@@ -632,7 +632,7 @@ no-js
 	.right, .norm {
 		padding-bottom:90px;
 	}
-	.cd-section h1, .cd-section h2, .cd-section h3 {
+	.cd-section h1, .cd-section h2, .cd-section h3, .cd-section h4 {
 		font-size: 1em;
 		text-align:left;
 		color:#fff;
@@ -679,6 +679,10 @@ no-js
 	#section4 h3{
 		padding-top:10px;
 	}
+	#section4 h4{
+		padding-top:0px;
+		padding-bottom:5px;
+	}
 	#section4 .right{
 		margin-top:-20px;
 	}
@@ -686,7 +690,7 @@ no-js
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
-	.cd-section h1, .cd-section h2, .cd-section h3 {
+	.cd-section h1, .cd-section h2, .cd-section h3, .cd-section h4 {
 		font-size: 1em;
 		margin-top:25px;
 		
